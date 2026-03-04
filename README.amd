@@ -1,0 +1,278 @@
+﻿# Investigación de Ofertas de Empleo
+
+## 1. Investigación de Ofertas Laborales Reales
+
+### Portal de empleo consultado
+- LinkedIn Jobs
+
+### Ofertas investigadas
+1. Front End Web Developer
+	- Enlace: [https://www.linkedin.com/jobs/view/4378004796](https://www.linkedin.com/jobs/view/4378004796)
+2. Full Stack Developer – Xertica.ai (Latin America)
+	- Enlace: [https://www.linkedin.com/jobs/view/4375893724](https://www.linkedin.com/jobs/view/4375893724)
+3. Contract Web Developer – Club Sociale
+	- Enlace: [https://www.linkedin.com/jobs/view/4373507575](https://www.linkedin.com/jobs/view/4373507575)
+4. Junior WordPress Developer – Remote Work – BairesDev
+	- Enlace: [https://www.linkedin.com/jobs/view/4378825457](https://www.linkedin.com/jobs/view/4378825457)
+5. Fullstack Developer – ALUXION
+	- Enlace: [https://www.linkedin.com/jobs/view/4368153968](https://www.linkedin.com/jobs/view/4368153968)
+
+---
+
+## 2. Análisis de Cada Oferta Laboral
+
+### 2.1 Front End Web Developer
+
+**Nombre del puesto:** Front End Web Developer
+
+#### Tecnologías requeridas
+- JavaScript
+- TypeScript
+- CSS / SCSS
+- Node.js
+- Docker
+- Bootstrap
+- WordPress
+- React
+- GatsbyJS
+- GitHub (incluyendo GitHub Actions)
+- Angular
+- Debugging y troubleshooting con herramientas estándar
+- Integración y desarrollo de APIs
+- Git (estrategias de ramas y flujos de trabajo)
+- Conocimientos de backend básico (aplicaciones colaborativas)
+- Web accessibility practices
+- (Deseable) AWS
+- (Deseable) Bases de datos MySQL
+- (Deseable) Desarrollo en MS Visual Studio
+
+#### Habilidades técnicas (hard skills)
+- Trabajo colaborativo con otros equipos técnicos (analistas, product owners, PMs)
+- Creación de documentación técnica
+- Mantenimiento y mejora de aplicaciones existentes
+- Optimización de páginas y soluciones creativas de desarrollo
+
+#### Habilidades blandas (soft skills)
+- Comunicación efectiva con stakeholders internos y remotos
+- Trabajo independiente y capacidad de multitarea
+- Flexibilidad para adaptarse a cambios de prioridad
+- Excelentes relaciones interpersonales
+- Fluidez oral y escrita en inglés
+
+#### Responsabilidades principales
+- Mantener y mejorar el conjunto de sitios web y aplicaciones web
+- Optimizar páginas/aplicaciones existentes y desarrollar nuevas soluciones
+- Colaborar con otros desarrolladores, gestores de producto y equipos de negocio
+- Seguir normas de despliegue de software y sugerir mejoras en los mecanismos de despliegue
+- Detectar y recomendar mejoras en páginas, procesos y aplicaciones
+- Generar documentación técnica para los proyectos en los que participe
+- Adaptarse a cambios de prioridades según necesidades del negocio
+
+### 2.2 Full Stack Developer – Xertica.ai (Latin America)
+
+**Nombre del puesto:** Full Stack Developer – Xertica.ai (Latin America)
+
+#### Tecnologías requeridas
+- Backend: Java (Spring Boot), Go o Node.js (TypeScript)
+- Frontend: React.js o Next.js (TypeScript)
+- Diseño de APIs (REST, GraphQL o gRPC)
+- Manejo de bases de datos relacionales y NoSQL
+- Implementación de seguridad (OAuth2, JWT, estándares OWASP)
+- WebSockets o SSE para comunicación en tiempo real
+
+#### Habilidades técnicas (hard skills)
+- Desarrollo full stack (lógica de servidor + interfaces de usuario)
+- Integración de componentes de IA en servicios productivos
+- Aseguramiento de calidad y arquitectura limpia
+- Optimización de interfaces y experiencia de desarrollador (DX)
+
+#### Habilidades blandas (soft skills)
+- Colaboración con equipos multidisciplinarios
+- Mentalidad orientada a experiencia del desarrollador
+- Capacidad de diseño orientado a mantenibilidad
+
+#### Responsabilidades principales
+- Desarrollar tanto backend como frontend de la plataforma
+- Implementar componentes base escalables para alta concurrencia
+- Integrar prototipos de IA en servicios robustos
+- Crear interfaces eficientes y paneles administrativos
+- Garantizar calidad de código y facilidad de evolución
+
+### 2.3 Contract Web Developer – Club Sociale
+
+**Nombre del puesto:** Contract Web Developer – Club Sociale
+
+#### Tecnologías requeridas
+- HTML, CSS, JavaScript
+- PHP (WordPress)
+- WordPress con Elementor
+- Framer (construcción y edición de sitios)
+- Gestión de dominios, DNS, SSL
+- Optimización de rendimiento y responsividad
+
+#### Habilidades técnicas (hard skills)
+- Desarrollo y personalización de temas y funcionalidades en WordPress
+- Implementación de código personalizado dentro de sitios web
+- Seguimiento de diseños de Adobe XD o Figma
+- Solución de conflictos de plugins y errores web
+
+#### Habilidades blandas (soft skills)
+- Comunicación clara y efectiva
+- Orientación al detalle
+- Capacidad de trabajo independiente y con clientes externos
+- Puntualidad y fiabilidad en entregas
+
+#### Responsabilidades principales
+- Desarrollar y revisar sitios web según especificaciones
+- Personalizar temas y funciones en WordPress/Elementor
+- Optimizar sitios en rendimiento y compatibilidad cross-device
+- Administrar entornos de staging y producción
+- Resolver bugs y conflictos técnicos
+- Asegurar mejores prácticas de seguridad y backups
+
+### 2.4 Junior WordPress Developer – Remote Work – BairesDev
+
+**Nombre del puesto:** Junior WordPress Developer – Remote Work – BairesDev
+
+#### Tecnologías requeridas
+- WordPress (Core, Themes, Plugins)
+- HTML
+- CSS
+- JavaScript
+- PHP
+- Git
+- Diseño responsive
+- Integración de APIs / servicios terceros
+
+#### Habilidades técnicas (hard skills)
+- Desarrollo y personalización de temas y plugins en WordPress
+- Implementación de diseños responsive y compatibilidad cross-browser
+- Mantenimiento, actualizaciones y troubleshooting de sitios
+- Optimización básica de rendimiento y seguridad
+- Trabajo colaborativo con diseñadores y creadores de contenido
+
+#### Habilidades blandas (soft skills)
+- Trabajo en equipo remoto
+- Proactividad y ganas de aprendizaje
+- Organización y responsabilidad
+- Buen nivel de inglés
+
+#### Responsabilidades principales
+- Desarrollar y personalizar sitios en WordPress
+- Implementar nuevas funcionalidades
+- Dar soporte en mantenimiento y resolución de errores
+- Integrar servicios y APIs de terceros
+- Optimizar desempeño y seguridad del sitio
+
+### 2.5 Fullstack Developer – ALUXION
+
+**Nombre del puesto:** Fullstack Developer – ALUXION
+
+#### Tecnologías requeridas
+- React
+- Next.js (SSR / SSG)
+- Node.js
+- TypeScript
+- HTML
+- CSS
+- JavaScript
+- Bases de datos relacionales y no relacionales
+- Testing: Cypress / Cucumber / Selenium
+
+#### Habilidades técnicas (hard skills)
+- Desarrollo full stack (frontend + backend)
+- Construcción de APIs y servicios backend escalables
+- Optimización de rendimiento, escalabilidad y seguridad
+- Implementación de aplicaciones renderizadas en servidor
+- Escritura de código limpio, mantenible y documentado
+
+#### Habilidades blandas (soft skills)
+- Trabajo en equipo con diseñadores y product managers
+- Organización y gestión de proyectos
+- Adaptación a entornos de ritmo rápido
+- Interés por mantenerse actualizado en tendencias web
+
+#### Responsabilidades principales
+- Diseñar y desarrollar aplicaciones web con React, Next.js y Node.js
+- Construir aplicaciones SSR y SSG con Next.js
+- Desarrollar APIs y servicios backend escalables
+- Optimizar aplicaciones para velocidad y seguridad
+- Colaborar con equipos multifuncionales
+- Mantener buenas prácticas y calidad de código
+
+---
+
+## 3. Resultados del Análisis de las 5 Ofertas
+
+### 3.1 Patrones comunes identificados
+
+#### Uso intensivo de JavaScript y su ecosistema
+Todas las ofertas giran alrededor de:
+- JavaScript
+- TypeScript
+- React / Next.js
+- Node.js
+
+**Patrón:** Stack JavaScript dominante en frontend y backend.
+
+#### Trabajo con APIs
+En casi todos los puestos se menciona:
+- Desarrollo de APIs
+- Integración de APIs externas
+- Servicios backend escalables
+
+**Patrón:** Arquitectura basada en servicios y comunicación cliente-servidor.
+
+#### Desarrollo Full Stack o conocimiento transversal
+Aunque algunos roles son frontend o WordPress, todos requieren:
+- Entender backend básico
+- Manejar bases de datos
+- Optimizar rendimiento
+- Mantener aplicaciones existentes
+
+**Patrón:** Se valora perfil híbrido, no especializado en una sola capa.
+
+#### Optimización y calidad del software
+Repetidamente se menciona:
+- Rendimiento
+- Seguridad
+- Código limpio y mantenible
+- Testing
+- Buenas prácticas
+
+**Patrón:** Enfoque en calidad, escalabilidad y mantenibilidad.
+
+#### Habilidades de trabajo remoto y colaboración
+Todas destacan:
+- Comunicación efectiva
+- Trabajo en equipo
+- Adaptabilidad
+- Organización
+- Inglés
+
+**Patrón:** Perfil autónomo, colaborativo y apto para entornos remotos.
+
+### 3.2 Perfil profesional objetivo
+
+Full Stack Developer con énfasis en **backend**, especializado en desarrollo de **APIs escalables con Node.js**, manejo de bases de datos y arquitectura limpia. Complementa su perfil con **React / Next.js** para construir soluciones web completas end-to-end, priorizando rendimiento, seguridad y mantenibilidad.
+
+### 3.3 Justificación del enfoque del sitio web desarrollado
+
+El sitio web se desarrolla como una postulación a un puesto ficticio de Full Stack Developer con énfasis en backend, alineado con las demandas actuales del mercado analizadas en las ofertas investigadas.
+
+La mayoría de las vacantes requieren:
+- Desarrollo de APIs y servicios backend escalables
+- Conocimiento de arquitectura limpia y buenas prácticas
+- Integración de frontend moderno (React / Next.js)
+- Manejo de bases de datos y optimización de rendimiento
+
+Por ello, el sitio no se enfoca únicamente en diseño visual, sino en demostrar:
+- Capacidad de construir una solución completa (frontend + backend)
+- Implementación de lógica de negocio real
+- Estructura organizada y mantenible
+- Enfoque profesional alineado con proyectos tecnológicos modernos
+
+### 3.4 Diferenciadores claves
+
+- **Backend propio con APIs funcionales y base de datos**, no solo frontend visual
+- **Arquitectura limpia y código mantenible**, pensado para escalabilidad y buenas prácticas profesionales
