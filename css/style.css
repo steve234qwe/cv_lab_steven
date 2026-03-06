@@ -294,6 +294,9 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
 
   align-items: center;
   position: relative;
@@ -497,17 +500,21 @@ main {
 
 .main_abajo {
   display: grid;
-  grid-template-columns:auto auto auto;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  align-items: stretch;
+  gap: 24px;
   justify-content: center;
-border:15px groove #0f0f0f;
-margin-top: 100px;
+  border: 15px groove #0f0f0f;
+  margin: 100px auto 0;
+  padding: 24px;
+  width: min(100%, 920px);
+  box-sizing: border-box;
 }
 
 .contenedor_habilidades {
-    display: grid;
+  display: grid;
+  grid-template-rows: auto 1fr;
   font-family: "Arial", sans-serif;
   background: linear-gradient(135deg, #8b6fac, #07145d);
   background-clip: text;
@@ -516,22 +523,23 @@ margin-top: 100px;
   font-size: 20px;
   text-align: center;
   border:10px inset rgba(124, 58, 237, 0.4);
-  padding: 20px;
-  margin: 10px;
-  grid-template-columns: 1fr;
+  padding: 18px;
+  margin: 0;
   align-items: center;
-min-height: 300px;
-min-width: 300px;
-max-height: 300px;
-max-width:300px;
+  min-height: 420px;
+  height: 420px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  align-content: start;
 
 }
 
 
 
 .contenedor_habilidades > h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 16px;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -566,16 +574,18 @@ max-width:300px;
 
 .habilidades{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  align-content: start;
+  gap: 12px;
+  grid-auto-rows: 58px;
 }
 
 
 .habilidad{
     display: flex;
     align-items: center;
-    gap: 10px;
+  justify-content: center;
     text-align: center;
     font-family: "Arial", sans-serif;
     background: radial-gradient(
@@ -586,9 +596,14 @@ max-width:300px;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 15px;
-    padding: 5px;
-    border: 5px groove #0f0f0f;
+    font-size: 16px;
+    line-height: 1.2;
+    min-height: 58px;
+    width: 100%;
+    padding: 6px 8px;
+    border: 3px groove #0f0f0f;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
 }
 .habilidad:hover {
     background: radial-gradient(
@@ -603,7 +618,7 @@ max-width:300px;
 
   transform: scale(1.05);
   transition: ease 0.6s;
-   border: 5px outset rgba(93, 17, 107, 0.9);
+  border: 3px outset rgba(93, 17, 107, 0.9);
 }
 
 
@@ -614,8 +629,9 @@ max-width:300px;
 
 .experiencia_profesional {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-    align-items: center;
+  grid-template-columns: 24px minmax(0, 1fr);
+  align-items: stretch;
+  gap: 24px;
   justify-content: center;
   margin: 50px;
   padding: 50px;
@@ -768,8 +784,10 @@ max-width:300px;
 .linea_animada {
   position: relative;
   width: 4px;
-  height: 1000px; 
-  margin: 40px auto;
+  height: auto;
+  min-height: 100%;
+  margin: 0 auto;
+  align-self: stretch;
 
   background: linear-gradient(
     to bottom,
@@ -893,8 +911,9 @@ max-width:300px;
 /* Responsive Design */
 @media screen and (max-width: 1200px) {
   .main_abajo {
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     border: 10px groove #0f0f0f;
+    width: min(100%, 860px);
   }
 
   .experiencia_profesional {
@@ -904,7 +923,32 @@ max-width:300px;
   }
 
   .linea_animada {
-    display: none;
+    width: 100%;
+    height: 4px;
+    min-height: 4px;
+    margin: 0 0 25px;
+    align-self: auto;
+
+    background: linear-gradient(
+      to right,
+      rgba(37, 99, 235, 0.8),
+      rgba(124, 58, 237, 0.8)
+    );
+  }
+
+  .linea_animada::before,
+  .linea_animada::after {
+    top: 50%;
+    left: auto;
+    transform: translateY(-50%);
+  }
+
+  .linea_animada::before {
+    left: -10px;
+  }
+
+  .linea_animada::after {
+    right: -10px;
   }
 
   .linea_animada_horizontal {
@@ -943,14 +987,13 @@ max-width:300px;
   }
 
   .main_abajo {
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: min(100%, 760px);
   }
 
   .contenedor_habilidades {
-    min-width: 250px;
-    max-width: 250px;
-    min-height: 280px;
-    max-height: 280px;
+    min-height: 400px;
+    height: 400px;
   }
 
   .contenedor_habilidades > h1 {
@@ -1061,18 +1104,21 @@ max-width:300px;
   }
 
   .main_abajo {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     border: 8px groove #0f0f0f;
     margin-top: 50px;
-    gap: 15px;
+    gap: 16px;
+    width: 100%;
+    max-width: 680px;
   }
 
   .contenedor_habilidades {
-    min-width: 100%;
+    width: 100%;
     max-width: 100%;
-    min-height: auto;
-    max-height: none;
+    min-height: 360px;
+    height: 360px;
     border: 6px inset rgba(124, 58, 237, 0.4);
+    padding: 14px;
   }
 
   .contenedor_habilidades:hover {
@@ -1081,11 +1127,14 @@ max-width:300px;
 
   .habilidades {
     grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 50px;
   }
 
   .habilidad {
     border: 3px groove #0f0f0f;
-    font-size: 13px;
+    font-size: 14px;
+    min-height: 50px;
+    padding: 5px 6px;
   }
 
   .habilidad:hover {
@@ -1218,13 +1267,19 @@ max-width:300px;
   }
 
   .main_abajo {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     border: 5px groove #0f0f0f;
     margin-top: 30px;
+    max-width: 100%;
+    padding: 12px;
+    gap: 12px;
   }
 
   .contenedor_habilidades {
     border: 5px inset rgba(124, 58, 237, 0.4);
-    padding: 15px;
+    min-height: 330px;
+    height: 330px;
+    padding: 10px;
   }
 
   .contenedor_habilidades:hover {
@@ -1232,21 +1287,28 @@ max-width:300px;
   }
 
   .contenedor_habilidades > h1 {
-    font-size: 24px;
+    font-size: 17px;
+    gap: 8px;
+    margin-bottom: 10px;
   }
 
   .contenedor_habilidades > h1 > svg {
-    width: 35px;
-    height: 35px;
+    width: 24px;
+    height: 24px;
   }
 
   .habilidades {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    grid-auto-rows: 44px;
   }
 
   .habilidad {
-    font-size: 12px;
+    font-size: 11px;
     border: 2px groove #0f0f0f;
+    min-height: 44px;
+    padding: 4px;
+    justify-content: center;
   }
 
   .habilidad:hover {
